@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <title>LAB C </title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h2>LAB C </h2>
+
+  <div id="map"></div>
+  <p id="geoInfo">geo: </p>
+
+  <div class="controls">
+    <button id="buttonGeo">moja lokalizacja</button>
+    <button id="buttonSnap">pobierz mapę</button>
+    <button id="buttonFallback">użyj obrazka zapasowego</button>
+    <button id="buttonNotif">zgoda na powiadomienia</button>
+  </div>
+
+  <canvas id="snapCanvas" width="512" height="512"></canvas>
+
+  <div class="download">
+    <a id="dl" href="#" download="mapa.png">pobierz PNG</a>
+    <button id="buttonDoPuzzle">zrób puzzle</button>
+  </div>
+
+  <h3>Puzzle</h3>
+
+  <div class="puzzle-section">
+    <div>
+      <div>stół</div>
+      <div id="pool"></div>
+    </div>
+    <div>
+      <div>siatka</div>
+      <div id="grid"></div>
+    </div>
+  </div>
+
+  <p id="statusik">status: czekam na obraz</p>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="https://unpkg.com/leaflet-image/leaflet-image.js"></script>
+  <script src="app.js"></script>
+
+</body>
+</html>
+

@@ -1,0 +1,88 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px;
+    background: #fafafa;
+  }
+  
+  h2, h3 {
+    color: #333;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  #map {
+    height: 400px;
+    border: 10px solid #d3aaaa;
+    margin: 20px 0;
+    border-radius: 6px;
+  }
+  
+  .controls {
+    margin-bottom: 10px;
+  }
+  
+  button {
+    margin: 5px;
+    padding: 6px 12px;
+    font-size: 15px;
+    cursor: pointer;
+    border: 2px solid #d8aaaa;
+    border-radius: 6px;
+    background: #fff4f4;
+    color: #333;
+  }
+  
+  button:hover {
+    background: #f5dcdc;
+  }
+  
+  #snapCanvas {
+    border: 10px dashed #e79595;
+    display: block;
+    margin: 20px 0;
+    border-radius: 6px;
+  }
+  
+  .download {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 15px;
+  }
+  
+  a#dl {
+    text-decoration: none;
+    color: #a94442;
+    font-weight: bold;
+  }
+  
+  .puzzle-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+  
+  #grid, #pool {
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    gap: 20px;
+  }
+  
+  .slot, .piece {
+    width: 100px;
+    height: 100px;
+    border: 10px solid #f59393;
+    overflow: hidden;
+    border-radius: 4px;
+  }
+  
+  .slot {
+    background: #eee;
+  }
+  
+  #statusik {
+    margin-top: 15px;
+    font-style: italic;
+    color: #444;
+  }
+  
