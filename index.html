@@ -2,20 +2,20 @@
 <html lang="pl">
 <head>
     <meta charset="UTF-8">
-    <title>Prognoza pogody</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Pogoda</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <main class="container">
-        <h1>Sprawdź pogodę</h1>
+        <h1>What’s heatin’ up?</h1>
 
         <div class="search-box">
-            <label for="city-input">Podaj miasto lub adres:</label>
+            <label for="city-input">Podaj miasto</label>
             <div class="row">
                 <input 
                     type="text" 
                     id="city-input" 
-                    placeholder="np. Warszawa, London, 00-001"
+                    placeholder="np. Warsaw ( po angielsku !!!)"
                 >
                 <button id="weather-btn">Pogoda</button>
             </div>
@@ -23,21 +23,21 @@
 
         <section class="results">
             <div class="current-weather">
-                <h2>Pogoda bieżąca</h2>
+                <h2>Pogoda Na Teraz</h2>
                 <p class="placeholder">
-                    Tutaj pojawią się dane o aktualnej pogodzie.
+                    Tu sie pojawi pogoda na teraz
                 </p>
             </div>
 
             <div class="forecast">
-                <h2>Prognoza na 5 dni</h2>
+                <h2>Pogoda na 5 dni</h2>
                 <p class="placeholder">
-                    Tutaj pojawi się prognoza z API 5 day / 3 hour forecast.
+                    Tu pojawi sie pogoda 5-dniowa
                 </p>
             </div>
         </section>
     </main>
 
-    <script src="script.js"></script>
+    <script src="app.js"></script>
 </body>
 </html>
